@@ -47,7 +47,7 @@ namespace LV587SETOPENCART.Tests
         public void GotoProductDetailsTest()
         {
             //Arrange
-            bool expected = true;//to fail and show screen
+            bool expected = false;//to fail and show screen
 
             //Act
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
