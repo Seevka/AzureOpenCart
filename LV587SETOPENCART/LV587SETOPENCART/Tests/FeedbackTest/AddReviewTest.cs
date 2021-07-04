@@ -14,7 +14,7 @@ namespace LV587SETOPENCART.Tests
 {
     [TestFixture]
     [AllureNUnit]
-    [AllureSuite("AddReviewTest")]
+    [AllureSuite("AddReviewTests")]
     [AllureDisplayIgnored]
     class AddReviewTest
     {
