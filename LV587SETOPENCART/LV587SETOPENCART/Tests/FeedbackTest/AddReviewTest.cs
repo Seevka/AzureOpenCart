@@ -67,8 +67,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ReviewWithoutDataTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorData.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("ReviewWithoutDataTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorData.Png");
             }
         }
 
@@ -101,8 +101,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ErrorReviewTextBoxTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorReviewTextBox.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("ErrorReviewTextBoxTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorReviewTextBox.Png");
             }
 
         }
@@ -136,8 +136,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ErrorNameTextBoxTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorNameTextBox.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("ErrorNameTextBoxTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorNameTextBox.Png");
             }
 
         }
@@ -171,8 +171,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ErrorRateTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorRate.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("ErrorRateTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ReviewWithErrorRate.Png");
             }
 
         }
@@ -211,8 +211,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\Correctly.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("ReviewTestTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\Correctly.Png");
             }
 
         }

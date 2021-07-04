@@ -63,8 +63,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ItemWithoutReviewsTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\NoReviews.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("ItemWithoutReviewsTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\NoReviews.Png");
             }
         }
 
@@ -94,12 +94,12 @@ namespace LV587SETOPENCART.Tests
             Screenshot AfterTestScreen = ((ITakesScreenshot)driver).GetScreenshot();
             try
             {
-                Assert.IsTrue(productComponents.ReviewPresent());
+                Assert.IsFalse(productComponents.ReviewPresent());
             }
             catch (Exception)
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("ItemWithReviewTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\WithReviews.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("ItemWithReviewTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\WithReviews.Png");
             }
         }
     }

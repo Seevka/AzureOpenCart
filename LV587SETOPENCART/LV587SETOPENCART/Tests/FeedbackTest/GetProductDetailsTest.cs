@@ -47,7 +47,7 @@ namespace LV587SETOPENCART.Tests
         public void GotoProductDetailsTest()
         {
             //Arrange
-            bool expected = false;//to fail and show screen
+            bool expected = true;//to fail and show screen
 
             //Act
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
@@ -71,8 +71,8 @@ namespace LV587SETOPENCART.Tests
             }
             catch (Exception) //Take a ScreenShot if test failed
             {
-                AfterTestScreen.SaveAsFile(@"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png", ScreenshotImageFormat.Png);
-                AllureLifecycle.Instance.AddAttachment("GetProductDetailsTearDown", "application/png", @"C:\Users\Sevka\source\repos\LV587SetOpencart\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ScreenshotImageFormat.Png");
+                AfterTestScreen.SaveAsFile(@"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ProductDetails.Png", ScreenshotImageFormat.Png);
+                AllureLifecycle.Instance.AddAttachment("GetProductDetailsTearDown", "application/png", @"C:\JenkinsSet\workspace\SET787\LV587SETOPENCART\LV587SETOPENCART\bin\Debug\net5.0\failscreens\ProductDetails.Png");
             }
         }
     }
